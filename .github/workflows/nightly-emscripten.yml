@@ -32,7 +32,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: 'ethereum/solidity'
-          ref: 'develop'
+          ref: 'some_dependencies_as_git_submodules'
           path: 'solidity/'
 
       - name: Clone solc-bin repository without checking out a working copy
